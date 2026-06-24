@@ -1,0 +1,19 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+}
+
+.card {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
