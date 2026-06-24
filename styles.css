@@ -22,8 +22,15 @@ footer {
 /* Card */
 .card {
   width: 300px;
-  height: 400px;
+  height: 475px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   box-shadow: 10px 10px 6px -5px rgba(0, 0, 0, 0.201);
+  padding: 12px;
+}
+
+.qr-code {
+  height: 275px;
+  background: url("images/image-qr-code.png") center / cover no-repeat;
+  border-radius: 10px;
 }
