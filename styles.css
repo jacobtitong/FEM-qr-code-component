@@ -77,3 +77,18 @@ footer {
   font-weight: normal;
   font-size: 0.95rem;
 }
+
+footer {
+  color: hsl(216, 15%, 48%);
+  font-family: Outfit;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: hsl(218, 44%, 22%);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
