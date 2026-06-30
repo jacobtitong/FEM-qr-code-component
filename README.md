@@ -89,9 +89,9 @@ With research, I also found out that I should've used the **`<img>`** element fo
     <figure class="qr-code-container">
       <img src="./images/image-qr-code-png" alt="QR Code to Frontend Mentor">
       <figcaption class="card-info">
-      <p>Improve your front-end skills by building projects</p>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-    </figcaption>
+        <p>Improve your front-end skills by building projects</p>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </figcaption>
     </figure>
   </article>
 </main>
