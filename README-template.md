@@ -42,29 +42,44 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+For HTML, I learned that semantic markup is incredibly important for accessibility and support for screen readers. I implemented this practice using four semantic HTML elements (excluding the already-provided footer). **`html<main>`** indicates the primary content of the page. **`html<article>`** is a section of a page that is reusable, meaning it can be implemented multiple times across different web pages. In this case, article is the QR code component or card. **`html<figure>`**, by the word itself, indicates any kind of visual element or illustration which is the QR code itself. While **`html<figcaption>`** represents the contents describing the QR code figure.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+      <main>
+        <article class="card"">
+          <figure class="qr-code">
+          </figure>
+          <figcaption class="card-info">
+            <p>Improve your front-end skills by building projects</p>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+          </figcaption>
+        </article>
+      </main>
 ```
+
+As for CSS, one of the technical things I have ever done for this solution is making the custom google fonts to work with my text. I understand that you can link the external fonts directly into HTML, however, I also considered the possibility of the external font to fail in connecting to my website. Which is why I had to download it and convert it into woff/woff2 for quick and easier access.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("fonts/Outfit-Bold.woff2") format("woff2"),
+    url("fonts/Outfit-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src:
+    url("fonts/Outfit-Regular.woff2") format("woff2"),
+    url("fonts/Outfit-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 ```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
