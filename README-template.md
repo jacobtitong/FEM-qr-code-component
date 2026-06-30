@@ -12,11 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -103,7 +99,7 @@ With research, I also found out that I should've used the **`<img>`** element fo
 
 I do not plan on fixing this semantic issue yet, as this mini-project just serves as my practice. But I might do so in the future.
 
-Not only that, my [styles.css] lacked CSS variables which I want to explore more in the future, especially its best practices for when to use it.
+Not only that, my [styles.css](styles.css) lacked CSS variables which I want to explore more in the future, especially its best practices for when to use it.
 
 ### Useful resources
 
