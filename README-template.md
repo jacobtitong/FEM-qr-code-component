@@ -42,19 +42,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-For HTML, I learned that semantic markup is incredibly important for accessibility and support for screen readers. I implemented this practice using four semantic HTML elements (excluding the already-provided footer). **`html<main>`** indicates the primary content of the page. **`html<article>`** is a section of a page that is reusable, meaning it can be implemented multiple times across different web pages. In this case, article is the QR code component or card. **`html<figure>`**, by the word itself, indicates any kind of visual element or illustration which is the QR code itself. While **`html<figcaption>`** represents the contents describing the QR code figure.
+For HTML, I learned that semantic markup is incredibly important for accessibility and support for screen readers. I implemented this practice using four semantic HTML elements (excluding the already-provided footer). **`<main>`** indicates the primary content of the page. **`<article>`** is a section of a page that is reusable, meaning it can be implemented multiple times across different web pages. In this case, article is the QR code component or card. **`<figure>`**, by the word itself, indicates any kind of visual element or illustration which is the QR code itself. While **`<figcaption>`** represents the contents describing the QR code figure.
 
 ```html
-      <main>
-        <article class="card"">
-          <figure class="qr-code">
-          </figure>
-          <figcaption class="card-info">
-            <p>Improve your front-end skills by building projects</p>
-            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-          </figcaption>
-        </article>
-      </main>
+<main>
+  <article class="card"">
+    <figure class="qr-code">
+    </figure>
+    <figcaption class="card-info">
+      <p>Improve your front-end skills by building projects</p>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </figcaption>
+  </article>
+</main>
 ```
 
 As for CSS, one of the technical things I have ever done for this solution is making the custom google fonts to work with my text. I understand that you can link the external fonts directly into HTML, however, I also considered the possibility of the external font to fail in connecting to my website. Which is why I had to download it and convert it into woff/woff2 for quick and easier access.
