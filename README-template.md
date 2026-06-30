@@ -85,7 +85,7 @@ As for CSS, one of the technical things I have ever done for this solution is ma
 
 Since I've recently just learned to use semantic elements, I know that my use of the **`<figcaption>`** element is quite off. Instead, it must be a direct child of the **`<figure>`** element. Therefore, I want to dive much deeper into the appropriate uses of semantic elements for the sake of my future developments.
 
-With research, I also found out that I should've used the **`<img>`** element for embedding the QR code in my page, rather than use the **`background`** CSS property. That is because the QR code acts as content, rather than a background design, meaning _`<img>`_ suits this case better. Here is what my HTML structure should have been:
+With research, I also found out that I should've used the **`<img>`** element for embedding the QR code in my page, rather than use the **`background`** CSS property. That is because the QR code acts as content, rather than a background design, meaning **`<img>`** suits this case better. Here is what my HTML structure should have been:
 
 ```html
 <main>
@@ -112,14 +112,4 @@ Not only that, my [styles.css] lacked CSS variables which I want to explore more
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [Jacob Titong](https://www.frontendmentor.io/profile/jacobtitong)
