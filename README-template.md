@@ -83,9 +83,27 @@ As for CSS, one of the technical things I have ever done for this solution is ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Since I've recently just learned to use semantic elements, I know that my use of the **`<figcaption>`** element is quite off. Instead, it must be a direct child of the **`<figure>`** element. Therefore, I want to dive much deeper into the appropriate uses of semantic elements for the sake of my future developments.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+With research, I also found out that I should've used the **`<img>`** element for embedding the QR code in my page, rather than use the **`background`** CSS property. That is because the QR code acts as content, rather than a background design, meaning _`<img>`_ suits this case better. Here is what my HTML structure should have been:
+
+```html
+<main>
+  <article class="card"">
+    <figure class="qr-code-container">
+      <img src="./images/image-qr-code-png" alt="QR Code to Frontend Mentor">
+      <figcaption class="card-info">
+      <p>Improve your front-end skills by building projects</p>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </figcaption>
+    </figure>
+  </article>
+</main>
+```
+
+I do not plan on fixing this semantic issue yet, as this mini-project just serves as my practice. But I might do so in the future.
+
+Not only that, my [styles.css] lacked CSS variables which I want to explore more in the future, especially its best practices for when to use it.
 
 ### Useful resources
 
